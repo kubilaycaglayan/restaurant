@@ -1,0 +1,20 @@
+{
+  "name": "3-restaurant-page",
+  "version": "1.0.0",
+  "description": "> This is a website, built only by using Javascript. Every single html element is rendered by a Javascript code in this page..",
+  "main": "sample.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kubilaycaglayan/Restaurant-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kubilaycaglayan/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/kubilaycaglayan/Restaurant-Page#readme"
+}
