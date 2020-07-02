@@ -1,4 +1,4 @@
-import navbar from './compNav';
+import { navbar } from './compNav';
 
 export default function header() {
   const header = document.createElement('header');
@@ -7,6 +7,6 @@ export default function header() {
   h1.className = 'display-4';
   header.appendChild(h1);
   header.appendChild(navbar());
-  header.className = 'bg-danger py-3 text-center text-white';
+  header.className = 'py-3 text-center text-white';
   return header;
 }

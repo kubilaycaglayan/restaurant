@@ -5,7 +5,7 @@ import { createElement, createElementWithText, createImage } from './functions';
 export default function main() {
   const childrenOfMain = [];
 
-  const main = createElement('main', 'bg-danger text-center');
+  const main = createElement('main', 'text-center');
 
   const michelinStar = createImage(MichelinStar, 'single michelin star', 'w-25 rounded');
   childrenOfMain.push(michelinStar);
