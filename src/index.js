@@ -1,2 +1,5 @@
-// eslint-disable-next-line no-console
-console.log('Microverse is great. And awesome.');
+import welcome from './welcome';
+
+const content = document.getElementById('content');
+
+content.appendChild(welcome());
