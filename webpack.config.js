@@ -14,6 +14,14 @@ module.exports = {
           'file-loader',
         ],
       },
+      {
+        test: /\.sass$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          'sass-loader',
+        ],
+      },
     ],
   },
 };

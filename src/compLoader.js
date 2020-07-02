@@ -1,6 +1,7 @@
 import header from './compHeader';
 import main from './compMain';
 import footer from './compFooter';
+import './style.sass';
 
 export default function load() {
   const content = document.getElementById('content');
