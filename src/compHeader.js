@@ -1,4 +1,4 @@
-export default function welcome() {
+export default function header() {
   const header = document.createElement('header');
   const h1 = document.createElement('h1');
   h1.innerHTML = 'Welcome To The Michelin\'s Place';
