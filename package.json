@@ -5,8 +5,8 @@
   "main": "sample.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "eslint": "eslint '**/*.css'",
-    "stylelint": "stylelint ."
+    "stylelint": "stylelint '**/*.css'",
+    "eslint": "eslint ."
   },
   "repository": {
     "type": "git",

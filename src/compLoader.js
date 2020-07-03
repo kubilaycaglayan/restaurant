@@ -22,7 +22,7 @@ const loadMenu = function loadMenu() {
     menu,
   ];
   return childrenOfContent;
-}
+};
 
 const loadMain = function loadMain() {
   const childrenOfContent = [
@@ -30,14 +30,14 @@ const loadMain = function loadMain() {
     footer,
   ];
   return childrenOfContent;
-}
+};
 
 const loadContact = function loadContact() {
   const childrenOfContent = [
     contact,
   ];
   return childrenOfContent;
-}
+};
 
 
 // eslint-disable-next-line no-unused-vars
@@ -52,16 +52,16 @@ export default function load(index = 0, initial = true) {
       footer,
     ];
   } else if (index === 0) {
-    childrenOfContent = loadMain()
+    childrenOfContent = loadMain();
   } else if (index === 1) {
-    childrenOfContent = loadMenu()
+    childrenOfContent = loadMenu();
   } else if (index === 2) {
-    childrenOfContent = loadContact()
+    childrenOfContent = loadContact();
   }
-  
+
   childrenOfContent.forEach((child) => {
     content.appendChild(child());
   });
-  
+
   activateButton(index);
 }

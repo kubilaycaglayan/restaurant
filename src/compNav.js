@@ -9,22 +9,22 @@ const navbar = function navbar() {
     navbar.appendChild(button);
   });
   return navbar;
-}
+};
 
 const activateButton = function activateButton(index) {
-  [0,1,2].forEach((buttonNumber) => {
+  [0, 1, 2].forEach((buttonNumber) => {
     let button;
     if (buttonNumber === index) {
       button = document.getElementsByClassName('button')[buttonNumber];
-      button.className = 'button px-2 text-white'
+      button.className = 'button px-2 text-white';
     } else {
       button = document.getElementsByClassName('button')[buttonNumber];
-      button.className = 'button px-2'
+      button.className = 'button px-2';
     }
-  })
-}
+  });
+};
 
 export {
-  navbar as navbar,
-  activateButton as activateButton,
-}
+  navbar,
+  activateButton,
+};
