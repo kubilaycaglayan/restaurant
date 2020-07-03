@@ -2,9 +2,9 @@ import { createElement, createElementWithText } from './functions';
 
 const navbar = function navbar() {
   const navbar = createElement('div', 'try d-flex justify-content-center');
-  const button1 = createElementWithText('div', 'button px-2', 'Main');
-  const button2 = createElementWithText('div', 'button px-2', 'Menu');
-  const button3 = createElementWithText('div', 'button px-2', 'Contact');
+  const button1 = createElementWithText('div', 'button', 'Main');
+  const button2 = createElementWithText('div', 'button', 'Menu');
+  const button3 = createElementWithText('div', 'button', 'Contact');
   [button1, button2, button3].forEach((button) => {
     navbar.appendChild(button);
   });
@@ -16,10 +16,10 @@ const activateButton = function activateButton(index) {
     let button;
     if (buttonNumber === index) {
       button = document.getElementsByClassName('button')[buttonNumber];
-      button.className = 'button px-2 text-white';
+      button.className = 'button px-4 pt-2 text-danger bg-light lead';
     } else {
       button = document.getElementsByClassName('button')[buttonNumber];
-      button.className = 'button px-2';
+      button.className = 'button px-4 pt-2 lead';
     }
   });
 };
