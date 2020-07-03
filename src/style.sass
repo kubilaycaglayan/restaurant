@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap')
+
 body
+  font-family: 'Lora', serif
   padding-top: 200px
   overflow-y: scroll
   min-height: 100vh
@@ -9,6 +12,8 @@ body
     h1
       font-size: 5vw
     .button
+      @media ( max-width: 768px )
+        font-size: 13px
       border-top-left-radius: 20%
       border-top-right-radius: 20%
       cursor: pointer
