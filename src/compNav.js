@@ -1,6 +1,6 @@
 import { createElement, createElementWithText } from './functions';
 
-const navbar = function navbar() {
+const navbar = () => {
   const navbar = createElement('div', 'try d-flex justify-content-center');
   const button1 = createElementWithText('div', 'button', 'Main');
   const button2 = createElementWithText('div', 'button', 'Menu');
@@ -11,7 +11,7 @@ const navbar = function navbar() {
   return navbar;
 };
 
-const activateButton = function activateButton(index) {
+const activateButton = (index) => {
   [0, 1, 2].forEach((buttonNumber) => {
     let button;
     if (buttonNumber === index) {

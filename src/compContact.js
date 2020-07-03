@@ -7,7 +7,7 @@ const contactInformation = {
   'Telephone:': '0-555-55-666-321',
 };
 
-export default function contact() {
+const contact = () => {
   const wrapper = createElement('div', 'table-wrapper w-50 mx-auto my-5');
   const contact = createElement('table', 'table text-white');
   const tbody = createElement('tbody', '');
@@ -23,4 +23,6 @@ export default function contact() {
   contact.appendChild(tbody);
   wrapper.appendChild(contact);
   return wrapper;
-}
+};
+
+export { contact as default };

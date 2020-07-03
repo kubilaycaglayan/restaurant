@@ -39,7 +39,7 @@ const pickTab = function pickTab(index) {
   return childrenOfContent;
 };
 
-export default function load(index = 0) {
+const load = (index = 0) => {
   flush();
   const childrenOfContent = pickTab(index);
 
@@ -49,4 +49,6 @@ export default function load(index = 0) {
   });
 
   activateButton(index);
-}
+};
+
+export { load as default };

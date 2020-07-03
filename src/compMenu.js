@@ -4,7 +4,7 @@ import Dish3 from './dish5.png';
 import Dish4 from './dish2.png';
 import Dish5 from './dish3.png';
 
-export default function menu() {
+const menu = () => {
   const menu = createElement('div', 'container-fluid menu');
   let row;
   [Dish2, Dish3, Dish4, Dish5].forEach((Dish, index) => {
@@ -23,4 +23,6 @@ export default function menu() {
     }
   });
   return menu;
-}
+};
+
+export { menu as default };

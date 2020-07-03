@@ -2,7 +2,7 @@ import MichelinStar from './michelin.png';
 import Dish from './dish1.png';
 import { createElement, createElementWithText, createImage } from './functions';
 
-export default function main() {
+const main = () => {
   const childrenOfMain = [];
 
   const main = createElement('div', 'text-center');
@@ -31,4 +31,6 @@ export default function main() {
   });
 
   return main;
-}
+};
+
+export { main as default };

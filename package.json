@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "stylelint": "stylelint '**/*.css'",
-    "eslint": "eslint ."
+    "eslint": "eslint .",
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
