@@ -1,12 +1,13 @@
 # Restaurant Page
 
-> This is a website, built only by using Javascript. Every single html element is rendered by a Javascript code in this page.. 
+> This is a website, built only by using Javascript. Every single html element is rendered by a Javascript code in this page..
+> I also used a mini library of my own to help creating HTML elements. "src/myLib.js"
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/kubilaycaglayan/Restaurant-Page/restaurant/dist/index.html)
 
-![screenshot](./ss/rp.png)
+![screenshot](./src/rp.png)
 
 ## Built With
 
@@ -14,7 +15,6 @@
 - CSS
 - JAVASCRIPT
 - WEBPACK
-- 
 - BOOTSTRAP
 - SASS
 
