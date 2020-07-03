@@ -1,7 +1,7 @@
 import { createElement, createElementWithText } from './functions';
 
 const navbar = function navbar() {
-  const navbar = createElement('navbar', 'try d-flex justify-content-center');
+  const navbar = createElement('div', 'try d-flex justify-content-center');
   const button1 = createElementWithText('div', 'button px-2', 'Main');
   const button2 = createElementWithText('div', 'button px-2', 'Menu');
   const button3 = createElementWithText('div', 'button px-2', 'Contact');
