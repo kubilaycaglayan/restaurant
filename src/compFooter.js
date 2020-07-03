@@ -1,5 +1,5 @@
 export default function footer() {
-  const footer = document.createElement('footer');
+  const footer = document.createElement('div');
   const par = document.createElement('p');
   par.innerHTML = 'fusion-cuisine@eathere.com';
   footer.appendChild(par);
