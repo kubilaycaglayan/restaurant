@@ -1,4 +1,4 @@
-import { createElementWithText, createElement, createImage } from './functions';
+import { createElementWithText, createElement, createImage } from './myLib';
 import Dish2 from './dish4.png';
 import Dish3 from './dish5.png';
 import Dish4 from './dish2.png';

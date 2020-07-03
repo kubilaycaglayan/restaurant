@@ -1,4 +1,4 @@
-import { createElement, createElementWithText } from './functions';
+import { createElement, createElementWithText } from './myLib';
 import { navbar } from './compNav';
 
 const header = () => {

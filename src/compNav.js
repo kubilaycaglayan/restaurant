@@ -1,4 +1,4 @@
-import { createElement, createElementWithText } from './functions';
+import { createElement, createElementWithText } from './myLib';
 
 const navbar = () => {
   const navbar = createElement('div', 'try d-flex justify-content-center');

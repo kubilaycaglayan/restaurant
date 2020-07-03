@@ -1,10 +1,10 @@
-import { createElementWithText, createElement } from './functions';
+import { createElementWithText, createElement } from './myLib';
 
 const contactInformation = {
   'Manager:': 'Degustator Definitive',
   'E-mail:': 'fusion-cuisine@eathere.com',
   'Address:': 'Neighborhood',
-  'Telephone:': '0-555-55-666-321',
+  'Telephone:': '0-555-666-26-32',
 };
 
 const contact = () => {

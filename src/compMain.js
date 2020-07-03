@@ -1,6 +1,6 @@
 import MichelinStar from './michelin.png';
 import Dish from './dish1.png';
-import { createElement, createElementWithText, createImage } from './functions';
+import { createElement, createElementWithText, createImage } from './myLib';
 
 const main = () => {
   const childrenOfMain = [];
