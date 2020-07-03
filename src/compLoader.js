@@ -39,7 +39,7 @@ const pickTab = function pickTab(index) {
   return childrenOfContent;
 };
 
-export default function load(index = 1) {
+export default function load(index = 2) {
   flush();
   const childrenOfContent = pickTab(index);
 
