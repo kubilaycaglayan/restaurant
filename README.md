@@ -24,6 +24,21 @@
 
 - Click the Live Demo link and enjoy with the website.
 
+### Run A Local Copy
+
+Run the following commands on your terminal:
+- `git clone https://github.com/kubilaycaglayan/Restaurant-Page.git`
+- `git checkout restaurant`
+- open 'Restaurant-Page/dist/index.html' file
+
+### Make Changes
+
+Run npm install to make local changes 
+In the project directory run:
+- `npm install`
+After this command you may make changes and after every change run:
+- `npm webpack` to compile files into distribution folder.
+
 ### Prerequisites
 
 - A modern browser, up to date.
