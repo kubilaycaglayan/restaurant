@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap')
+
+body
+  font-family: 'Lora', serif
+  padding-top: 200px
+  overflow-y: scroll
+  min-height: 100vh
+  background-color: #DC3545
+  .header
+    background-color: #dc3546c9
+    border-bottom: 10px white solid
+    h1
+      font-size: 5vw
+    .button
+      @media ( max-width: 768px )
+        font-size: 13px
+      border-top-left-radius: 20%
+      border-top-right-radius: 20%
+      cursor: pointer
+  .menu
+    img
+      width: 40vw
+      @media ( max-width: 768px )
+        width: 80vw
+      @media ( min-width: 1250px )
+        width: 30vw
